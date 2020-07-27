@@ -37,6 +37,7 @@ using namespace std;
 #define DEB2(x, y) cout << #x << " = " << x << "," << #y << " = " << y << endl
 #define ALL(x) x.begin(), x.end()
 #define SORTALL(x) sort(ALL(x))
+#define SORTA(a) sort(a, a+n)
 #define SZ(x) ((int)x.size())
 #define MPI 3.1415926535897932384626
 
