@@ -1,61 +1,74 @@
+//Author : Aditya Shidlyali
+
 #include <bits/stdc++.h>
 using namespace std;
-#define SI(x) scanf("%d",&x)
-#define SLI(x) scanf("%ld",&x)
+
+#define SI(x) scanf("%d", &x)
+#define SLI(x) scanf("%ld", &x)
 #define SLLI(x) scanf("%lld", &x)
-#define SS(s) scanf("%s",s)
-#define PI(x) printf("%d\n",x)
-#define PLI(x) printf("%ld", x)
-#define PLLI(x) printf("%lld\n",x)
-#define PS(s) printf("%s\n",s)
-#define REP(i, a, b) for(int i=a; i<=b; i++)
-#define ITR(it, a) for(auto it = a.begin(); it != a.end(); it++)
-#define MX max(a, b)
-#define MN min(a, b)
+#define SS(s) scanf("%s", s)
+#define PI(x) printf("%d\n", x)
+#define PLI(x) printf("%ld\n", x)
+#define PLLI(x) printf("%lld\n", x)
+#define PS(s) printf("%s\n", s)
+#define REP(i, a, b) for (int i = a; i <= b; ++i)
+#define REPR(i, a, b) for (int i = b; i >= a; --i)
+#define ITR(it, a) for (auto it = a.begin(); it != a.end(); ++it)
+#define INF INFINITY
+#define MX(a, b) max(a, b)
+#define MN(a, b) min(a, b)
 #define PB push_back
 #define MP make_pair
+#define IN insert
 #define F first
 #define S second
-#define MOD 1e9+7
+#define LB lower_bound
+#define UB upper_bound
+#define MOD 1000000007
 #define endl '\n'
-#define FLUSH fflush(stdout);fflush(stdin);
-#define FastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+#define FLUSH       \
+	fflush(stdout); \
+	fflush(stdin);
+#define FastIO                        \
+	ios_base::sync_with_stdio(false); \
+	cin.tie(NULL);                    \
+	cout.tie(NULL);
 #define DEB(x) cout << #x << " = " << x << endl
 #define DEB2(x, y) cout << #x << " = " << x << "," << #y << " = " << y << endl
 #define ALL(x) x.begin(), x.end()
 #define SORTALL(x) sort(ALL(x))
+#define SZ(x) ((int)x.size())
 #define MPI 3.1415926535897932384626
+
 typedef long int li;
 typedef long long int lli;
 typedef unsigned long long int ulli;
-typedef vector<int> vi;
-typedef vector<lli> vlli;
-typedef vector<ulli> vulli;
-typedef pair<int, int> pi;
+typedef vector<li, li> vli;
 typedef pair<li, li> pli;
-typedef pair<lli, lli> plli;
-typedef pair<ulli, ulli> pulli;
+typedef map<li, li> mli;
+typedef unordered_map<li, li> umli;
+typedef set<li> sli;
 
-bool even_odd(ulli n) {
-	if (n%2 == 0) return true;
-	else return false;
-}
+inline li add(li a,li b) {return ((a % MOD) + (b % MOD)) % MOD;}
+inline li sub(li a,li b) {return ((a % MOD) - (b % MOD) + MOD) % MOD;}
+inline li mul(li a,li b) {return ((a % MOD) * (b % MOD)) % MOD;}
+
+/*--------------------main function--------------------*/
 
 int main() {
 	FastIO;
-	
-//	#ifndef ONLINE_JUDGE
-//	freopen("input.txt", "r", stdin);
-//	freopen("output.txt", "w", stdout);
-//	#endif
-	
+
+	//	#ifndef ONLINE_JUDGE
+	//	freopen("input.txt", "r", stdin);
+	//	freopen("output.txt", "w", stdout);
+	//	#endif
+
 	int t = 1;
 	cin >> t;
 	while (t--) {
-		
-		
-		FLUSH;	
+
+		FLUSH;
 	}
-	
+
 	return 0;
 }
