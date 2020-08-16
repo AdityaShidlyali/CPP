@@ -3,14 +3,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define SI(x) scanf("%d", &x)
-#define SLI(x) scanf("%ld", &x)
-#define SLLI(x) scanf("%lld", &x)
-#define SS(s) scanf("%s", s)
-#define PI(x) printf("%d\n", x)
-#define PLI(x) printf("%ld\n", x)
-#define PLLI(x) printf("%lld\n", x)
-#define PS(s) printf("%s\n", s)
 #define REP(i, a, b) for (int i = a; i <= b; ++i)
 #define REPR(i, a, b) for (int i = b; i >= a; --i)
 #define ITR(it, a) for (auto it = a.begin(); it != a.end(); ++it)
