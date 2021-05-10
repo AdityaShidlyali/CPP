@@ -47,7 +47,6 @@ inline li sub(li a,li b) {return ((a % MOD) - (b % MOD) + MOD) % MOD;}
 inline li mul(li a,li b) {return ((a % MOD) * (b % MOD)) % MOD;}
 
 /*--------------------main function--------------------*/
-
 int main() {
 	FastIO;
 
